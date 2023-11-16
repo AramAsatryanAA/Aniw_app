@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1 1 auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #e8e8e8;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #adadad;
+}
+
+.wrapper {
+  @apply relative flex min-h-full w-full flex-col;
+}
+
+.container {
+  @apply mx-auto max-w-[1440px];
+}
+
+.item-card-type {
+  @apply rounded-xl bg-white px-4 py-3 dark:bg-custom-black-100 lg:px-6 lg:py-5;
+}
+.authentication-card-type {
+  @apply flex w-[352px] flex-col gap-6 rounded-xl bg-white p-4 dark:bg-custom-black-100 lg:w-[404px] lg:px-6 lg:py-6;
+}
+.modal-item-card-type {
+  @apply rounded-xl border border-custom-gray-300 bg-white py-5 dark:border-custom-black-300 dark:bg-custom-black-100;
+}
+.select-options-card-type {
+  @apply flex max-h-[210px] flex-col overflow-auto rounded-xl border border-custom-gray-300 bg-white py-2 dark:border-custom-black-300 dark:bg-custom-black-100;
+}
+.button-card-type {
+  @apply bg-custom-gray-100 transition-all hover:bg-custom-gray-300 dark:bg-custom-black-300 dark:hover:bg-custom-black-500;
+}
+
+.input-type {
+  @apply w-full rounded-lg border border-transparent bg-custom-gray-100 px-5 py-3 placeholder:text-base placeholder:text-custom-gray-700 hover:border-custom-gray-500 focus:border-custom-gray-500 focus:bg-white focus:outline-none dark:bg-custom-black-500 dark:hover:border-custom-gray-900 dark:focus:border-custom-gray-900 dark:focus:bg-custom-black-500;
+}
+.search-input-type {
+  @apply w-full cursor-pointer rounded-xl border border-transparent py-3 pl-[52px] pr-4 placeholder:text-base placeholder:text-custom-gray-700 hover:border-custom-gray-500 focus:border-custom-gray-500 focus:bg-white focus:outline-none dark:hover:border-custom-gray-900 dark:focus:border-custom-gray-900;
+}
+
+.select-heading-button-type {
+  @apply flex w-full items-center justify-between rounded-lg border border-transparent bg-custom-gray-100 px-5 py-3 text-base text-custom-gray-700 transition-all hover:border-custom-gray-500 dark:bg-custom-black-500 dark:hover:border-custom-gray-900;
+}
+
+.select-option-item-type {
+  @apply w-full cursor-pointer px-6 py-3 text-base transition-all hover:bg-custom-gray-100 dark:hover:bg-custom-black-300;
+}
+
+.button-blue-type {
+  @apply rounded-lg bg-custom-blue-100 py-3 text-center text-base font-medium text-white transition-all hover:bg-custom-blue-300;
+}
+.button-gray-type {
+  @apply rounded-lg border border-custom-gray-500 bg-white py-3 text-center text-base font-medium text-custom-gray-700 transition-all hover:border-custom-gray-900 hover:text-custom-gray-900 dark:border-custom-gray-700 dark:bg-custom-black-100 dark:hover:border-custom-gray-100 dark:hover:text-custom-gray-100;
+}
+.button-black-type {
+  @apply rounded-lg border border-black bg-transparent py-3 text-center text-base font-medium transition-all hover:border-custom-gray-700 dark:border-custom-gray-900 dark:hover:border-custom-gray-100;
+}

@@ -1,0 +1,22 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="24" height="24" fill="#E8E8E8"/>
+<g id="Guide">
+<rect width="1440" height="6444" transform="translate(-112 -3012)" fill="#292929"/>
+<g id="Select" clip-path="url(#clip0_0_1)">
+<g id="Drop" clip-path="url(#clip1_0_1)">
+<rect id="Box" x="-23.5" y="-67.5" width="355" height="207" rx="7.5" fill="#292929" stroke="#1F1F1F" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="Radio">
+<rect id="Box_2" x="3.5" y="3.5" width="17" height="17" rx="3.5" stroke="#7F7F7F" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="356" height="740" fill="white" transform="translate(-24 -384)"/>
+</clipPath>
+<clipPath id="clip1_0_1">
+<rect width="356" height="208" fill="white" transform="translate(-24 -68)"/>
+</clipPath>
+</defs>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@@@/*": ["./public/*"],
+      "UI/*": ["./src/components/UI/*"]
+    }
+  }
+}
